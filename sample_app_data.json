@@ -15,7 +15,9 @@
   "categories": [
     { "id": "cat_all", "name": "All Sports" },
     { "id": "cat_cricket", "name": "Cricket" },
-    { "id": "cat_football", "name": "Football" }
+    { "id": "cat_football", "name": "Football" },
+    { "id": "cat_tennis", "name": "Tennis" },
+    { "id": "cat_basketball", "name": "Basketball" }
   ],
   "events": [
     {
@@ -58,6 +60,63 @@
       "team_two": { "name": "Barcelona", "logo": "https://cdn.sportslivehq.com/teams/barcelona.png" },
       "demo_intro_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
       "streaming_sources": []
+    },
+    {
+      "event_id": "evt_003",
+      "category_id": "cat_tennis",
+      "status": "live",
+      "title": "Wimbledon 2026",
+      "description": "Men's Singles Semi-Final (TEST STREAM)",
+      "start_time": "2026-07-03T13:30:00Z",
+      "team_one": { "name": "Novak Djokovic", "logo": "https://cdn.sportslivehq.com/teams/djokovic.png" },
+      "team_two": { "name": "Carlos Alcaraz", "logo": "https://cdn.sportslivehq.com/teams/alcaraz.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_004",
+      "category_id": "cat_basketball",
+      "status": "live",
+      "title": "NBA Summer League",
+      "description": "Final - Team USA vs Team World (TEST STREAM)",
+      "start_time": "2026-07-03T18:00:00Z",
+      "team_one": { "name": "Team USA", "logo": "https://cdn.sportslivehq.com/teams/usa_basketball.png" },
+      "team_two": { "name": "Team World", "logo": "https://cdn.sportslivehq.com/teams/world_basketball.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_005",
+      "category_id": "cat_football",
+      "status": "coming_soon",
+      "title": "Premier League",
+      "description": "Opening Match - Manchester City vs Liverpool (TEST STREAM)",
+      "start_time": "2026-07-10T20:00:00Z",
+      "team_one": { "name": "Manchester City", "logo": "https://cdn.sportslivehq.com/teams/mancity.png" },
+      "team_two": { "name": "Liverpool", "logo": "https://cdn.sportslivehq.com/teams/liverpool.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
     }
   ],
   "ads": {
