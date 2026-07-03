@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#0F0F1A</color>
+    <color name="colorSurface">#1A1A2E</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="colorOnSurfaceMuted">#9A9AB5</color>
+    <color name="colorAccent">#7C3AED</color>
+    <color name="colorAccentSecondary">#06B6D4</color>
+    <color name="colorCapsuleUnselected">#26263F</color>
+    <color name="colorLiveRed">#E53935</color>
+    <color name="colorComingSoonBlue">#3B82F6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

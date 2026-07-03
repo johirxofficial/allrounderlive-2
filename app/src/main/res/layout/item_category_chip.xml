@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvCategoryChip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/bg_capsule_selector"
+    android:clickable="true"
+    android:focusable="true"
+    android:fontFamily="sans-serif-medium"
+    android:paddingHorizontal="18dp"
+    android:paddingVertical="8dp"
+    android:textColor="@color/capsule_text_selector"
+    android:textSize="13sp"
+    tools:text="Cricket"
+    xmlns:tools="http://schemas.android.com/tools" />

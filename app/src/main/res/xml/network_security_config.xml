@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Cleartext (HTTP) allowed globally so self-hosted/IPTV panels and stream
+         proxies that don't run HTTPS still work. Tighten this to specific
+         <domain-config> entries for production if you want HTTPS-only elsewhere. -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

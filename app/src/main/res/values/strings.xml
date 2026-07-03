@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SportsLive HQ</string>
+    <string name="app_logo_desc">App logo</string>
+    <string name="info_button_desc">App information</string>
+    <string name="team_logo_desc">Team logo</string>
+    <string name="vs_label">VS</string>
+    <string name="badge_live">LIVE</string>
+    <string name="badge_coming_soon">COMING SOON</string>
+    <string name="follow_us">Follow us</string>
+    <string name="facebook_desc">Facebook</string>
+    <string name="telegram_desc">Telegram</string>
+    <string name="youtube_desc">YouTube</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="developer_format">Developed by %1$s</string>
+    <string name="select_server">Select Server</string>
+    <string name="back_desc">Back</string>
+    <string name="ad_badge">Ad</string>
+    <string name="visit_sponsor">Visit Sponsor</string>
+    <string name="skip_ad_format">Skip Ad in %1$d</string>
+    <string name="skip_ad_ready">Skip Ad</string>
+    <string name="playback_error_title">Playback Error</string>
+    <string name="retry">Retry</string>
+    <string name="change_server">Change Server</string>
+    <string name="error_network_friendly">Could not connect to this server. Check your internet connection or try another server.</string>
+    <string name="error_generic_friendly">Something went wrong while playing this stream. Please retry or switch servers.</string>
+    <string name="error_source_friendly">This stream format could not be read. It may be offline or the URL is incorrect.</string>
+    <string name="error_drm_friendly">This stream\'s protection keys could not be verified. Try another server.</string>
+    <string name="countdown_prefix">Starts in %1$s</string>
+    <string name="countdown_starting_soon">Starting soon</string>
+    <string name="countdown_unavailable">Start time unavailable</string>
+    <string name="error_loading_data">Could not load app data. Pull to refresh.</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="error_open_link">Could not open link.</string>
+</resources>
